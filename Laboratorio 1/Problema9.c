@@ -1,5 +1,6 @@
 #include <stdio.h>
-/* Programa: problema9.c */
+
+/* Programa: Problema9.c */
 int main()
 {
     // Declaración de variables
@@ -11,6 +12,6 @@ int main()
 
     // Calcular seguro educativo
     seguroEducativo = salario * 0.0125;
-    printf("El seguro educativo es: %f \n", seguroEducativo);
+    printf("El seguro educativo es: %0.2f \n", seguroEducativo);
     return 0;
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
-/* Programa: problema8.c */
+
+/* Programa: Problema8.c */
 int main()
 {
     // Declaración de variables
@@ -14,6 +15,6 @@ int main()
 
     // Calcular salario
     salario = pagoPorHora * 45 * cantidadDeSemanas;
-    printf("El salario mensual es: %f \n", salario);
+    printf("El salario mensual es: %0.2f \n", salario);
     return 0;
 }

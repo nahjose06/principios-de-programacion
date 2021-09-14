@@ -14,6 +14,6 @@ int main()
     precioFinal = precio - descuento;
     printf("El precio es: %f \n", precio);
     printf("El descuento es: %f \n", descuento);
-    printf("El precio final es: %f \n", precioFinal);
+    printf("El precio final es: %0.2f \n", precioFinal);
     return 0;
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
-/* Programa: problema10.c */
+
+/* Programa: Problema10.c */
 int main()
 {
     // Declaración de variables
@@ -12,6 +13,6 @@ int main()
     scanf("%f", &tiempo);
     // Calcular seguro educativo
     distancia = tiempo * velocidad;
-    printf("La distancia es: %f \n", distancia);
+    printf("La distancia es: %0.2f \n", distancia);
     return 0;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Programa: Problema3.c */
+/* Programa: Problema7.c */
 int main()
 {
     // Declaración de variables
@@ -12,7 +12,7 @@ int main()
     // Calcular impuesto
     impuesto = precio * 0.07;
     total = precio + impuesto;
-    printf("El impuesto es: %f \n", impuesto);
-    printf("El precio total es: %f \n", total);
+    printf("El impuesto es: %0.2f \n", impuesto);
+    printf("El precio total es: %0.2f \n", total);
     return 0;
 }

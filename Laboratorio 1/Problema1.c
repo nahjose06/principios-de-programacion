@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* Programa: problema1.c */
+/* Programa: Problema1.c */
 int main()
 {
     // Declaración de variables
@@ -18,6 +18,6 @@ int main()
     scanf("%f", &nota5);
     // Calcular promedio
     promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5;
-    printf("El promedio final es: %f \n", promedio);
+    printf("El promedio final es: %0.2f \n", promedio);
     return 0;
 }

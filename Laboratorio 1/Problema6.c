@@ -11,6 +11,6 @@ int main()
     scanf("%f", &dolares);
     // Calcular conversion
     renminbi = dolares * 6.45;
-    printf("La cantidad en renminbi es: %f \n", renminbi);
+    printf("La cantidad en renminbi es: %0.2f \n", renminbi);
     return 0;
 }

@@ -11,6 +11,6 @@ int main()
     scanf("%f", &galones);
     // Calcular galones
     litros = galones * 4.546;
-    printf("La cantidad en litros es: %f \n", litros);
+    printf("La cantidad en litros es: %0.2f \n", litros);
     return 0;
 }

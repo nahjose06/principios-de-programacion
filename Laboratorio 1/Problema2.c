@@ -11,6 +11,6 @@ int main()
     scanf("%f", &fahrenheit);
     // Calcular temperatura
     celcius = (fahrenheit - 32) * 5/9;
-    printf("La temperatura en ºC es: %f \n", celcius);
+    printf("La temperatura en ºC es: %0.2f \n", celcius);
     return 0;
 }
