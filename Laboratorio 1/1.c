@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* Programa: Problema1.c */
+/* Programa: 1.c */
 int main()
 {
     // Declaración de variables

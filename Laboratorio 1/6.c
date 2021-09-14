@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Programa: Problema6.c */
+/* Programa: 6.c */
 int main()
 {
     // Declaración de variables
