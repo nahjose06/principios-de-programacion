@@ -51,5 +51,6 @@ int main()
       printf("Valor invalido \n");
       break;
   }
+  return 0;
 
 }
