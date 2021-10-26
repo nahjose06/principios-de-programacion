@@ -20,6 +20,7 @@ int main()
                 scanf("%f", &cantidad);
                 printf("Ingrese el valor de la moneda\n1. Bolívar venezolano\n2. Dólar canadiense\n3. Libra\n4. Peso colombiano\n5. Peso mexicano\n6. Yen\n7. Yuan\n8. Euro\n9. Real brasileño\n10. Peso argentino \nOpcion: ");
                 scanf("%i", &moneda);
+		// Calculo de conversion
                 switch(moneda){
                         case 1:
                                 printf("El resultado es %0.2f\n", BolivarVenezolano(cantidad));
